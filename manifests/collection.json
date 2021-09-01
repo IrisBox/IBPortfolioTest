@@ -1,0 +1,13 @@
+{
+  "id" : "https://IrisBox.github.io/IBPortfolioTest/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in IrisBox/IBPortfolioTest project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://IrisBox.github.io/IBPortfolioTest/manifests/IBPotfolioTestmanifest.json",
+    "label" : "Andytest"
+  } ]
+}
