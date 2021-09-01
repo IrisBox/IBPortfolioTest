@@ -1,0 +1,80 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://IrisBox.github.io/IBPortfolioTest/manifests/IBPotfolioTestmanifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "Andytest",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : " Andytest"
+  } ],
+  "license" : " Andytest",
+  "attribution" : " Andytest",
+  "sequences" : [ {
+    "@id" : "http://214429f1-c09b-4209-ae2e-dcca71ee1e9a",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://b6308a19-230c-4a37-b840-3040d59b3c04",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 1080,
+      "width" : 1920,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://546b427b-7459-41b8-be7a-ae4c88c77f15",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://irisbox.github.io/IBPortfolioTest/images/20150704-00022/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "@id" : "https://irisbox.github.io/IBPortfolioTest/images/20150704-00022",
+            "profile" : "level0"
+          },
+          "height" : 1080,
+          "width" : 1920
+        },
+        "on" : "http://b6308a19-230c-4a37-b840-3040d59b3c04"
+      } ],
+      "related" : "",
+      "metadata" : [ {
+        "label" : "Label",
+        "value" : "Value"
+      } ]
+    }, {
+      "@id" : "http://1def20b0-af26-49d8-b817-5c46983e0de4",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 1080,
+      "width" : 1920,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://40c70228-cc16-445e-9023-81b092922d93",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://irisbox.github.io/IBPortfolioTest/images/20150502-00027/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "@id" : "https://irisbox.github.io/IBPortfolioTest/images/20150502-00027",
+            "profile" : "level0"
+          },
+          "height" : 1080,
+          "width" : 1920
+        },
+        "on" : "http://1def20b0-af26-49d8-b817-5c46983e0de4"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ],
+  "viewingDirection" : "left-to-right"
+}
